@@ -1,0 +1,24 @@
+#include "../../elle.tmpl"
+
+
+SRCS= mat.cc \
+      dgemm.c dtrsv.c lu.c \
+      permutation.c permute_source.c matrix_source.c  \
+      vector_source.c block_source.c xerbla.c types.c \
+      ran3.c mt.c default.c rng.c error.c stream.c
+OBJS= config.h mat.o \
+      dgemm.o dtrsv.o lu.o \
+      permutation.o permute_source.o matrix_source.o  \
+      vector_source.o block_source.o xerbla.o types.o \
+      ran3.o mt.o default.o rng.o error.o stream.o
+
+.SUFFIXES: .cc .o
+.cc .o:
+    NormalCplusplusObjectRule()
+
+config.h:
+	./configure
+
+MakeLibTarget(matrix,_base,$(OBJS),$(LIBDIR),$(INCLUDES_B),base)
+
+CleanMakefile()

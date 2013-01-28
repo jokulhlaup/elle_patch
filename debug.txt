@@ -1,0 +1,312 @@
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/usr/lib/X11/config
+making Makefiles in statscode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/statscode'
+make[1]: Nothing to be done for `Makefiles'.
+make[1]: Leaving directory `/home/mike/elle/elle/statscode'
+making Makefiles in basecode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+make[1]: Nothing to be done for `Makefiles'.
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'
+making Makefiles in wxplotcode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/wxplotcode'
+make[1]: Nothing to be done for `Makefiles'.
+make[1]: Leaving directory `/home/mike/elle/elle/wxplotcode'
+making Makefiles in plotcode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/plotcode'
+make[1]: Nothing to be done for `Makefiles'.
+make[1]: Leaving directory `/home/mike/elle/elle/plotcode'
+making Makefiles in utilities...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/utilities'
+making Makefiles in utilities/matrix...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/matrix'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/matrix'
+making Makefiles in utilities/gpc...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/gpc'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/gpc'
+making Makefiles in utilities/convert...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/convert'
+making Makefiles in utilities/convert/oof...
+	mv -f Makefile Makefile.bak
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert/oof'
+make[3]: Nothing to be done for `Makefiles'.
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert/oof'
+making Makefiles in utilities/convert/basil...
+	mv -f Makefile Makefile.bak
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert/basil'
+make[3]: Nothing to be done for `Makefiles'.
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert/basil'
+making Makefiles in utilities/convert/ppm...
+	mv -f Makefile Makefile.bak
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert/ppm'
+make[3]: Nothing to be done for `Makefiles'.
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert/ppm'
+making Makefiles in utilities/convert/ebsd...
+	mv -f Makefile Makefile.bak
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert'
+make[3]: Entering directory `/home/mike/elle/elle/utilities/convert/ebsd'
+make[3]: Nothing to be done for `Makefiles'.
+make[3]: Leaving directory `/home/mike/elle/elle/utilities/convert/ebsd'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/convert'
+making Makefiles in utilities/reposition...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/reposition'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/reposition'
+making Makefiles in utilities/checkangle...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/checkangle'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/checkangle'
+making Makefiles in utilities/view...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/view'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/view'
+making Makefiles in utilities/ps...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/ps'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/ps'
+making Makefiles in utilities/movies...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/movies'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/movies'
+making Makefiles in utilities/tidy...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/tidy'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/tidy'
+making Makefiles in utilities/experiment_launcher...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/experiment_launcher'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/experiment_launcher'
+making Makefiles in utilities/lattestart...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/lattestart'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/lattestart'
+making Makefiles in utilities/shelle...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/utilities'
+make[2]: Leaving directory `/home/mike/elle/elle/utilities'
+make[2]: Entering directory `/home/mike/elle/elle/utilities/shelle'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/utilities/shelle'
+make[1]: Leaving directory `/home/mike/elle/elle/utilities'
+making Makefiles in processes...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/processes'
+making Makefiles in processes/pblast...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/pblast'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/pblast'
+making Makefiles in processes/gbdiff...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/gbdiff'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/gbdiff'
+making Makefiles in processes/tbh...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/tbh'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/tbh'
+making Makefiles in processes/split...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/split'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/split'
+making Makefiles in processes/viscosity...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/viscosity'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/viscosity'
+making Makefiles in processes/disloc_rx...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/disloc_rx'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/disloc_rx'
+making Makefiles in processes/angle_rx...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/angle_rx'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/angle_rx'
+making Makefiles in processes/gbm...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/gbm'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/gbm'
+making Makefiles in processes/recovery...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/recovery'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/recovery'
+making Makefiles in processes/statistics...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/statistics'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/statistics'
+making Makefiles in processes/manuel...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/manuel'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/manuel'
+making Makefiles in processes/diffusion...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/diffusion'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/diffusion'
+making Makefiles in processes/melt...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/melt'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/melt'
+making Makefiles in processes/latte...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/latte'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/latte'
+making Makefiles in processes/nucleation...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/nucleation'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/nucleation'
+making Makefiles in processes/proximity...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/proximity'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/proximity'
+making Makefiles in processes/exchange...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/exchange'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/exchange'
+making Makefiles in processes/growth...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/growth'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/growth'
+making Makefiles in processes/melt...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/melt'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/melt'
+making Makefiles in processes/metamorphism...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/metamorphism'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/metamorphism'
+making Makefiles in processes/phasefield...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/phasefield'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/phasefield'
+making Makefiles in processes/sub_gg...
+	mv -f Makefile Makefile.bak
+make[2]: Entering directory `/home/mike/elle/elle/processes'
+make[2]: Leaving directory `/home/mike/elle/elle/processes'
+make[2]: Entering directory `/home/mike/elle/elle/processes/sub_gg'
+make[2]: Nothing to be done for `Makefiles'.
+make[2]: Leaving directory `/home/mike/elle/elle/processes/sub_gg'
+make[1]: Leaving directory `/home/mike/elle/elle/processes'
+installing base in ./basecode...
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+rm -f regions.o
+c++ -c -g -O2 -fno-strict-aliasing   -I../basecode -I../statscode -I../utilities/matrix -I../utilities/gpc   -Dlinux -D__amd64__ -D_POSIX_C_SOURCE=199309L 				-D_POSIX_SOURCE -D_XOPEN_SOURCE 				-D_BSD_SOURCE -D_SVID_SOURCE                                 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 				  				      regions.cc
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'

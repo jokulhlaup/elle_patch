@@ -1,0 +1,53 @@
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/usr/lib/X11/config
+making Makefiles in statscode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/statscode'
+make[1]: Leaving directory `/home/mike/elle/elle/statscode'
+installing base in ./basecode...
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+rm -f regions.o
+c++ -c -g -O2 -fno-strict-aliasing   -I../basecode -I../statscode -I../utilities/matrix -I../utilities/gpc   -Dlinux -D__amd64__ -D_POSIX_C_SOURCE=199309L 				-D_POSIX_SOURCE -D_XOPEN_SOURCE 				-D_BSD_SOURCE -D_SVID_SOURCE                                 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 				  				      regions.cc
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'
+./install.sh wx
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/usr/lib/X11/config
+making Makefiles in statscode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/statscode'
+make[1]: Leaving directory `/home/mike/elle/elle/statscode'
+installing base in ./basecode...
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+rm -f regions.o
+c++ -c -g -O2 -fno-strict-aliasing   -I../basecode -I../statscode -I../utilities/matrix -I../utilities/gpc   -Dlinux -D__amd64__ -D_POSIX_C_SOURCE=199309L 				-D_POSIX_SOURCE -D_XOPEN_SOURCE 				-D_BSD_SOURCE -D_SVID_SOURCE                                 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 				  				      regions.cc
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/usr/lib/X11/config
+making Makefiles in statscode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/statscode'
+make[1]: Leaving directory `/home/mike/elle/elle/statscode'
+installing base in ./basecode...
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+rm -f regions.o
+c++ -c -g -O2 -fno-strict-aliasing   -I../basecode -I../statscode -I../utilities/matrix -I../utilities/gpc   -Dlinux -D__amd64__ -D_POSIX_C_SOURCE=199309L 				-D_POSIX_SOURCE -D_XOPEN_SOURCE 				-D_BSD_SOURCE -D_SVID_SOURCE                                 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 				  				      regions.cc
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/usr/lib/X11/config
+making Makefiles in statscode...
+	mv -f Makefile Makefile.bak
+make[1]: Entering directory `/home/mike/elle/elle'
+make[1]: Leaving directory `/home/mike/elle/elle'
+make[1]: Entering directory `/home/mike/elle/elle/statscode'
+make[1]: Leaving directory `/home/mike/elle/elle/statscode'
+installing base in ./basecode...
+make[1]: Entering directory `/home/mike/elle/elle/basecode'
+rm -f regions.o
+c++ -c -g -O2 -fno-strict-aliasing   -I../basecode -I../statscode -I../utilities/matrix -I../utilities/gpc   -Dlinux -D__amd64__ -D_POSIX_C_SOURCE=199309L 				-D_POSIX_SOURCE -D_XOPEN_SOURCE 				-D_BSD_SOURCE -D_SVID_SOURCE                                 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 				  				      regions.cc
+make[1]: Leaving directory `/home/mike/elle/elle/basecode'

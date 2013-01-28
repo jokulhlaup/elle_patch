@@ -1,0 +1,33 @@
+#define IHaveSubdirs
+#define PassCDebugFlags
+
+#include "../extra.rules"
+
+SUBDIRS = pblast gbdiff tbh split viscosity disloc_rx angle_rx\
+ gbm recovery statistics manuel diffusion melt latte nucleation\
+ proximity exchange growth melt metamorphism phasefield  sub_gg
+SUBDIRS_X = pblast gbdiff growth tbh split viscosity disloc_rx angle_rx\
+ gbm recovery statistics manuel diffusion melt nucleation\
+ proximity exchange melt metamorphism phasefield  sub_gg
+SUBDIRS_WX = pblast gbdiff tbh growth split viscosity disloc_rx\
+ angle_rx gbm recovery statistics manuel diffusion melt latte\
+ nucleation proximity exchange melt metamorphism phasefield sub_gg
+/*
+ * problems with diffusion - can't build batch version until it is
+ * rewritten
+ * problems with latte - code uses wx stream fns. Can't build batch or X
+ * version until it is fixed
+ */
+SUBDIRS_B = pblast gbdiff tbh growth split viscosity disloc_rx\
+ angle_rx gbm recovery statistics manuel melt nucleation\
+ proximity exchange melt metamorphism phasefield sub_gg
+
+MakeDisplayWXSubdirs($(SUBDIRS_WX))
+NamedTargetSubdirs(install_wx,$(SUBDIRS_WX),"installing display_wx",NullParameter,install_wx)
+MakeDisplayXSubdirs($(SUBDIRS_X))
+NamedTargetSubdirs(install_x,$(SUBDIRS_X),"installing display_x",NullParameter,install_x)
+MakeBatchSubdirs($(SUBDIRS_B))
+NamedTargetSubdirs(install_b,$(SUBDIRS_B),"installing batch",NullParameter,install_b)
+DependSubdirs($(SUBDIRS))
+CleanMakefile()
+CleanmkSubdirs($(SUBDIRS))

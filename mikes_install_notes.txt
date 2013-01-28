@@ -1,0 +1,2 @@
+1. Errors strcmp not declared in this scope. Must have include <cstring> that is not included in most of the src
+2. Make sure xutils-dev and lesstif2-dev are installed (not the other lesstif packages or motif packages)
